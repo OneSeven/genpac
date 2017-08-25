@@ -148,6 +148,8 @@ WINGY:
 ### 示例
 
 ```
+# demo
+sudo genpac --proxy="SOCKS5 127.0.0.1:6677" -o autoproxy.pac --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 # 从gfwlist生成代理信息为SOCKS5 127.0.0.1:1080的PAC文件
 genpac --format=pac --pac-proxy="SOCKS5 127.0.0.1:1080"
 
